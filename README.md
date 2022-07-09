@@ -2,7 +2,6 @@
 
 ## 2015 : Krishna As the Gita Archarya 
 
-
 ## 2016 : Vasudeva Taking Krishna to Vrindavan
 
 <p align="center">
@@ -10,6 +9,7 @@
 <p>
 
 [Click Here](2016) to view in Detail.
+
 
 ## 2017 - 12th August : Govardhana Giridhara
 
@@ -20,6 +20,7 @@
 
 [Click Here](2017) to view in Detail.
 
+
 ## 2018 - 01st October : Krishna As the Gita Acharya
 
 <p align="center">
@@ -28,6 +29,7 @@
 
 [Click Here](2018) to view in Detail.
 
+
 ## 2019 - 23rd August : 
 
 <p align="center">
@@ -35,6 +37,7 @@
 <p>
 
 [Click Here](2019) to view in Detail.
+
 
 ## 2022
 
