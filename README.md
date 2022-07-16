@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="2016/Group_Photo.jpg">
-<p>
+</p>
 
 [Click Here](2016) to view in Detail.
 
@@ -16,7 +16,7 @@
 <p align="center">
   <img src="Assets/2017/Banner.jpg" width=500>
   <img src="Assets/2017/Float.jpg" width=500>
-<p>
+</p>
 
 [Click Here](2017) to view in Detail.
 
@@ -25,7 +25,7 @@
 
 <p align="center">
   <img src="Assets/2018/Group_Photo.jpg" width=400>
-<p>
+</p>
 
 [Click Here](2018) to view in Detail.
 
@@ -34,7 +34,7 @@
 
 <p align="center">
   <img src="Assets/2019/Group_Photo.jpg" width=400>
-<p>
+</p>
 
 [Click Here](2019) to view in Detail.
 
