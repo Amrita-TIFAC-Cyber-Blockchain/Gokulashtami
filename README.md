@@ -1,11 +1,21 @@
 # Gokulashtami
 
+<p align="center">
+  <img src="Assets/Gokula.jpg" width="440">
+</p>
+
+## 2012 
+
+<p align="center">
+  <img src="Assets/2012/Group_Photo.jpg" width="700">
+</p>
+
 ## 2015 : Krishna As the Gita Archarya 
 
 ## 2016 : Vasudeva Taking Krishna to Vrindavan
 
 <p align="center">
-  <img src="2016/Group_Photo.jpg">
+  <img src="Assets/2016/Group_Photo.jpg">
 </p>
 
 [Click Here](2016) to view in Detail.
@@ -30,7 +40,7 @@
 [Click Here](2018) to view in Detail.
 
 
-## 2019 - 23rd August : 
+## 2019 - 23rd August : Kuchela Visiting Krishna
 
 <p align="center">
   <img src="Assets/2019/Group_Photo.jpg" width=400>
@@ -39,6 +49,6 @@
 [Click Here](2019) to view in Detail.
 
 
-## 2022
+## 2022 - 19th October : Dasavatharam - Modern Era
 
 [Click Here](2022) to view in Detail.
