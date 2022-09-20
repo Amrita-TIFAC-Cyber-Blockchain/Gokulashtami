@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<!--
+Author: Manbendra Satpathy
+Date  : 19-Sept-2022
+-->
+<html>
+<head>
+<title>Gokulashtami 2022</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 16.667%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.blink {
+            animation: blinker 1s linear infinite;
+            color: red;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+.blink2 {
+            animation: blinker 1s linear infinite;
+            color: green;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }        
+
+
+
+
+.tech-slideshow {
+  height: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(https://upload.wikimedia.org/wikipedia/en/f/f8/Amrita-vishwa-vidyapeetham-color-logo.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 10s alternate infinite;
+}
+
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
+
+#Event Coordinator {background-color: white;}
+#Team List {background-color: white;}
+#Budget {background-color: white;}
+#Spendings {background-color: white;}
+#Item Stock {background-color: white;}
+#Gallery {background-color: white;}
+
+div {
+  animation-direction: alternate;
+}
+</style>
+</head>
+<body>
+  <div class="tech-slideshow">
+    <div class="mover-1"></div>
+    <div class="mover-2"></div>
+  </div>
+  
+<br>
+
+<br>
+<center><img src="https://dt19wmazj2dns.cloudfront.net/wp-content/uploads/2021/09/tifac-core-cyber-security-1.jpg" width = "1500" height="400"></center>
+<div></div>
+<br>
+
+<br>
+<br>
+<b><button class="tablink" onclick="openPage('Event Coordinator', this, 'magenta')">Event Coordinator</button></b>
+<b><button class="tablink" onclick="openPage('Team List', this, 'orange')" id="defaultOpen">Team List</button></b>
+<b><button class="tablink" onclick="openPage('Budget', this, 'red')" >Budget</button></b>
+<b><button class="tablink" onclick="openPage('Spendings', this, 'green')">Spendings</button></b>
+<b><button class="tablink" onclick="openPage('Item Stock', this, 'blue')">Item Stock</button></b>
+<b><button class="tablink" onclick="openPage('Gallery', this, 'indigo')">Gallery</button></b>
+
+<div id="Event Coordinator" class="tabcontent">
+  <h2><p style="font-size:120%;font-family:Consolas";> The list of Event Coordinator list is as follows : </p></h2>
+
+  <table>
+    <tr>
+      <center><th>Event</th></center>
+      <th>Coordinator - 1</th>
+      <th>Coordinator - 2</th>
+      <th>Coordinator - 3</th>
+      <th>Coordinator - 4</th>
+    </tr>
+    
+  <tr>  
+  <td>Dance</td>
+  <td>Kavali Sai Suvarchala</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Singing</td>
+  <td>Harshitha Ranjith</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Instruments</td>
+  <td>Yuvaraj Kumar G.P.</td>
+  <td>Sushmanth.V.M.</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Float Overall</td>
+  <td>Kishanth.K.</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Painting</td>
+  <td>Niran.R.</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Procession</td>
+  <td>Ruthwik Krishna Bandreddy</td>
+  <td>Deepthi.J.</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Photogrpahy</td>
+  <td>Alooysius Vitalian.J.</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Material Procurement</td>
+  <td>Kishore.M.</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Treasure</td>
+  <td>Kommuri Sai Suhitha Bala</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Food and Snacks</td>
+  <td>Karanam Hitesh Manjunath</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Costume and Makeup</td>
+  <td>Anuvarshini.M.K.</td>
+  <td>Madhav Harikumar</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Skit Coordinator</td>
+  <td>Ruthwik Krishna Bandreddy</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>OD Coordinator</td>
+  <td>Venkata Revan Nagireddy</td>
+  <td>Roshni.V.</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+  <tr>
+  <td>Overall</td>
+  <td>Venkata Revan Nagireddy</td>
+  <td>Abhinesh.G.</td>
+  <td>Sri Sai Tanvi Sonti</td>
+  <td>Roshni.V.</td>
+</tr>
+  <tr>
+  <td>Special Souvenir</td>
+  <td>Anu Priya.P</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+</table>
+  
+</div>
+
+<div id="Team List" class="tabcontent">
+  <h2><p style="font-size:120%;font-family:Consolas";> The Team List is as follows : </p></h2> 
+</div>
+
+<div id="Budget" class="tabcontent">
+  <h3>Budget</h3>
+
+  <h2><p class="blink" style="font-size:120%;font-family:Consolas";> Budget Left : ₹</p></h2>
+  
+</div>
+
+<div id="Spendings" class="tabcontent">
+  <h3>Spendings</h3>
+  <h2><p class="blink2" style="font-size:120%;font-family:Consolas";> Total Spending : ₹</p></h2>
+</div>
+
+<div id="Item Stock" class="tabcontent">
+  <h3>Item Stock</h3>
+  <h2><p style="font-size:120%;font-family:Consolas";> The Items in the Stock are : </p></h2>
+</div>
+
+<div id="Gallery" class="tabcontent">
+  <h3>Gallery</h3>
+  <p></p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
