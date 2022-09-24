@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<!--
-Author: Manbendra Satpathy
-Date  : 19-Sept-2022
--->
 <html>
-<head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
 
-/* Set height of body and the document to 100% */
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
 }
 
-/* Style tab links */
 .tablink {
   background-color: #555;
   color: white;
@@ -33,7 +27,6 @@ body, html {
   background-color: #777;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: black;
   display: none;
@@ -57,26 +50,26 @@ tr:nth-child(even) {
 }
 
 .blink {
-            animation: blinker 1s linear infinite;
-            color: red;
-        }
-        @keyframes blinker {
-            50% {
-                opacity: 0;
-            }
-        }
+  animation: blinker 1s linear infinite;
+  color: red;
+}
+@keyframes blinker {
+  50% {
+  opacity: 0;
+  }
+}
 
 .blink2 {
-            animation: blinker 1s linear infinite;
-            color: green;
-        }
-        @keyframes blinker {
-            50% {
-                opacity: 0;
-            }
-        }        
+  animation: blinker 1s linear infinite;
+  color: green;
+}
+@keyframes blinker {
+  50% {
+  opacity: 0;
+  }
+}        
 
-  .rainbow-text {
+.rainbow-text {
   background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
   text-align: center;
   background-size: 800% 800%;
@@ -91,7 +84,6 @@ tr:nth-child(even) {
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
 }
-
 
 .tech-slideshow {
   height: 200px;
@@ -114,7 +106,7 @@ tr:nth-child(even) {
 }
 
 .tech-slideshow .mover-1 {
-  animation: moveSlideshow 10s alternate infinite;
+  animation: moveSlideshow 20s alternate infinite;
 }
 
 .tech-slideshow .mover-2 {
@@ -143,12 +135,11 @@ a:active {
   font-size:120%;
   font-family:Consolas;
 }
-  
+
 .row {
   display: flex;
 }
 
-/* Create three equal columns that sits next to each other */
 .column {
   flex: 33.33%;
   padding: 5px;
@@ -160,17 +151,19 @@ a:active {
 #Item Stock {background-color: white;}
 #Gallery {background-color: white;}
 
+
 </style>
 
+<head>
+	<title> GOKULASTHAMI 2022</title>
+	 <link rel = "icon" href = "https://camo.githubusercontent.com/a955ede62303c3afaefb7045576704fbc0035bfa557bcae93af08c50204b67e9/68747470733a2f2f616d726974612e6564752f77702d636f6e74656e742f75706c6f6164732f323032312f30392f313539373636383734343236392e6a7067" type = "image">
 </head>
-<body>
-
 	<div class="row">
 		<div class="column">
-		  <center><img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Amrita-vishwa-vidyapeetham-color-logo.png"><center>
+		  <center><img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Amrita-vishwa-vidyapeetham-color-logo.png" style:"width:100px"><center>
 		</div>
 		<div class="column">
-		  <center><img src="https://camo.githubusercontent.com/a955ede62303c3afaefb7045576704fbc0035bfa557bcae93af08c50204b67e9/68747470733a2f2f616d726974612e6564752f77702d636f6e74656e742f75706c6f6164732f323032312f30392f313539373636383734343236392e6a7067"></center>
+		  <center><img src="https://camo.githubusercontent.com/a955ede62303c3afaefb7045576704fbc0035bfa557bcae93af08c50204b67e9/68747470733a2f2f616d726974612e6564752f77702d636f6e74656e742f75706c6f6164732f323032312f30392f313539373636383734343236392e6a7067" style:"width:100px"></center>
 		</div>
 		
 	  </div>
@@ -178,40 +171,32 @@ a:active {
     <div class="mover-1"></div>
     <div class="mover-2"></div>
   </div>
-  <h1><p class="rainbow-text">GOKULASTHAMI 2022</p></h1>
-<br>
-<br>
+  <h1><p class="rainbow-text" style="font-size:120%;font-family:Calibri"; >GOKULASTHAMI 2022</p></h1>
 
-
-<br>
-<br>
-<b><button class="tablink" onclick="openPage('Event Coordinator', this, 'magenta')">Event Coordinator</button></b>
-<b><button class="tablink" onclick="openPage('Team List', this, 'orange')" id="defaultOpen">Team List</button></b>
+<b><button class="tablink" onclick="openPage('Event Coordinator', this, 'magenta')" id="defaultOpen">Event Coordinators</button></b>
+<b><button class="tablink" onclick="openPage('Team List', this, 'orange')">Teams List</button></b>
 <b><button class="tablink" onclick="openPage('Budget', this, 'red')" >Budget</button></b>
 <b><button class="tablink" onclick="openPage('Spendings', this, 'green')">Spendings</button></b>
 <b><button class="tablink" onclick="openPage('Item Stock', this, 'blue')">Item Stock</button></b>
 <b><button class="tablink" onclick="openPage('Gallery', this, 'indigo')">Gallery</button></b>
 
 <div id="Event Coordinator" class="tabcontent">
-  <h2><p style="font-size:120%;font-family:Consolas";> The list of Event Coordinator list is as follows : </p></h2>
-
-
-
+<center><img src = "https://i.pinimg.com/originals/de/8e/05/de8e05d4ffaf53f4c985f5f66d81532c.gif"></center>
   <table>
     <tr>
-      <center><th>Event</th></center>
-      <th>Coordinator - 1</th>
-      <th>Coordinator - 2</th>
-      <th>Coordinator - 3</th>
-      <th>Coordinator - 4</th>
+      <th style="text-align:center">Event</th>
+      <th style="text-align:center">B.Tech SPOC - 1</th>
+      <th style="text-align:center">B.Tech SPOC- 2</th>
+      <th style="text-align:center">M.Tech SPOC - 1</th>
+      <th style="text-align:center">M.Tech SPOC - 2</th>
     </tr>
     
   <tr>  
   <td>Dance</td>
   <td>Kavali Sai Suvarchala</td>
   <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>Pandya Tanvi Kamalkumar</td>
+  <td>Pothuri Lakshmi Harika</td>
 </tr>
   <tr>
   <td>Singing</td>
@@ -222,21 +207,21 @@ a:active {
 </tr>
   <tr>
   <td>Instruments</td>
-  <td>Yuvaraj Kumar G.P.</td>
-  <td>Sushmanth.V.M.</td>
+  <td>Yuvaraj Kumar G P</td>
+  <td>Sushmanth V M</td>
   <td>-</td>
   <td>-</td>
 </tr>
   <tr>
   <td>Float Overall</td>
-  <td>Kishanth.K.</td>
+  <td>Kishanth K</td>
   <td>-</td>
   <td>-</td>
-  <td>-</td>
+  <td>Mohamed Feroz Khan D</td>
 </tr>
   <tr>
   <td>Painting</td>
-  <td>Niran.R.</td>
+  <td>Niran R</td>
   <td>-</td>
   <td>-</td>
   <td>-</td>
@@ -244,230 +229,635 @@ a:active {
   <tr>
   <td>Procession</td>
   <td>Ruthwik Krishna Bandreddy</td>
-  <td>Deepthi.J.</td>
+  <td>Deepthi J</td>
   <td>-</td>
   <td>-</td>
 </tr>
   <tr>
   <td>Photogrpahy</td>
-  <td>Alooysius Vitalian.J.</td>
+  <td>Alooysius Vitalian J</td>
   <td>-</td>
   <td>-</td>
   <td>-</td>
 </tr>
   <tr>
   <td>Material Procurement</td>
-  <td>Kishore.M.</td>
-  <td>-</td>
+  <td>Kishore M</td>
+  <td>Sudeep V K</td>
   <td>-</td>
   <td>-</td>
 </tr>
   <tr>
-  <td>Treasure</td>
+  <td>Treasurer</td>
   <td>Kommuri Sai Suhitha Bala</td>
   <td>-</td>
-  <td>-</td>
+  <td>Meera E Thimothy</td>
   <td>-</td>
 </tr>
   <tr>
   <td>Food and Snacks</td>
   <td>Karanam Hitesh Manjunath</td>
-  <td>-</td>
+  <td>Mittul R</td>
   <td>-</td>
   <td>-</td>
 </tr>
   <tr>
   <td>Costume and Makeup</td>
-  <td>Anuvarshini.M.K.</td>
+  <td>Anuvarshini M K</td>
   <td>Madhav Harikumar</td>
   <td>-</td>
   <td>-</td>
 </tr>
   <tr>
-  <td>Skit Coordinator</td>
-  <td>Ruthwik Krishna Bandreddy</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-</tr>
-  <tr>
-  <td>OD Coordinator</td>
+  <td>On Duty Coordinator</td>
   <td>Venkata Revan Nagireddy</td>
-  <td>Roshni.V.</td>
+  <td>Roshni V</td>
   <td>-</td>
   <td>-</td>
 </tr>
   <tr>
   <td>Overall</td>
-  <td>Venkata Revan Nagireddy</td>
-  <td>Abhinesh.G.</td>
-  <td>Sri Sai Tanvi Sonti</td>
-  <td>Roshni.V.</td>
+  <td>Abinesh G
+  <br>
+  Venkata Revan Nagireddy</td>
+  <td>Roshni V
+  <br>
+  Sri Sai Tanvi Sonti</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
-  <tr>
+  <!--tr>
   <td>Special Souvenir</td>
   <td>Anu Priya.P</td>
   <td>-</td>
   <td>-</td>
   <td>-</td>
-</tr>
+</tr-->
   </table>
   
 </div>
 
 <div id="Team List" class="tabcontent">
-  
-  <h2><p style="font-size:120%;font-family:Consolas";> The Team List is as follows : </p></h2> 
+<center><img src ="https://i.gifer.com/origin/14/14de7d0395a4eca08690a76cc6f9e68c.gif" style:"width:100px"></center>
+  <h3><p style="font-size:120%;font-family:Consolas";>Cultural Events</p></h3> 
   <table>
-  <center><th>Team</th></center>
-      <th>Team Member - 1</th>
-      <th>Team Member - 2</th>
-      <th>Team Member - 3</th>
-      <th>Team Member - 4</th>
-      <th>Team Member - 5</th>
-      <th>Team Member - 6</th>
-      <th>Team Member - 7</th>
-      <th>Team Member - 8</th>
-      <th>Team Member - 9</th>
-      <th>Team Member - 10</th>
+    <tr>
+  <th style="text-align:center">Serial Number</th>
+      <th style="text-align:center">Dance</th>
+      <th style="text-align:center">Song</th>
     </tr>
     
   <tr>  
-  <td>Dance</td>
+  <td>1.</td>
   <td>Kavali Sai Suvarchala</td>
-  <td>Sri Sai Tanvi Sonti</td>
-  <td>Alagu Soundarya.G.</td>
-  <td>Aishwarya.G.</td>
-  <td>Suvetha DP</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-</tr>
-  <tr>
-  <td>Singing</td>
   <td>Harshitha Ranjith</td>
-  <td>Deepthi.J.</td>
-  <td>Aishwarya.G.S.</td>
-  <td>Swetha.V.</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-</tr>
+  </tr>
   <tr>
-  <td>Instruments</td>
-  <td>Yuvaraj Kumar G.P.</td>
-  <td>Sushmanth.V.M.</td>
-  <td>Udumula Koti Venkata Dinesh Reddy</td>
-  <td>R.Siddharth Krishna</td>
-  <td>Vinoth Kumar.C.</td>
-  <td>Vinoth Kumar.D.</td>
-  <td>Ashwin Anand</td>
-  <td>Seran Pandiyan.I.P.</td>
-  <td>Nishanth.S.</td>
-  <td>Lakshmi Narayan.P.</td>
-</tr>
-  </table>
-<br>
-<br>
-<br>
-<h2><p style="font-size:120%;font-family:Consolas";> Dashavatara </p></h2>
+  <td>2.</td>
+  <td>Sri Sai Tanvi Sonti</td>
+  <td>Deepthi J</td>
+  </tr>
+  <tr>
+  <td>3.</td>
+  <td>Alagu Soundarya G</td>
+  <td>Aishwarya G S</td>
+  </tr>
+  <tr>
+  <td>4.</td>
+  <td>Aishwarya G</td>
+  <td>Swetha V</td>
+  </tr>
+  <tr>
+  <td>5.</td>
+  <td>Suvetha D P</td>
+  <td>-</td>
+  </tr>
+  <tr>
+  <td>6.</td>
+  <td>Pothuri Lakshmi Harika</td>
+  <td>Meera E Thimothy</td>
+  </tr>
+  <tr>
+  <td>7.</td>
+  <td>Pandya Tanvi Kamalkumar</td>
+  <td>Ramya Ajay</td>
+  </tr>
+  <tr>
+  <td>8.</td>
+  <td>-</td>
+  <td>Karthika P</td>
+  </tr>
+  </table>  
+  <h2><p style="font-size:120%;font-family:Consolas";> Other Events </p></h2> 
   <table>
-  <center><th>Avatar</th></center>
-  <th> Name of the Student</th>
+  <tr>
+  <th style="text-align:center">Serial Number</th>
+  <th style="text-align:center">Instruments</th>
+  <th style="text-align:center">Float Decoration</th>
+  </tr> 
+  <tr>  
+  <td>1.</td>
+  <td>Yuvaraj Kumar G P</td>
+  <td>Kishanth K</td>
+  </tr>
+  <tr>  
+  <td>2.</td>
+  <td>Sushmanth V M</td>
+  <td>Alooysius Vitalian J</td>
+  </tr>
+  <tr>  
+  <td>3.</td>
+  <td>Udumula Koti Venkata Dinesh Reddy</td>
+  <td>Niran R</td>
+  </tr>
+  <tr>  
+  <td>4.</td>
+  <td>R Siddharth Krishna</td>
+  <td>Kishore M</td>
+  </tr>
+  <tr>  
+  <td>5.</td>
+  <td>Vinoth Kumar C</td>
+  <td>Abinesh G</td>
+  </tr>
+  <tr>  
+  <td>6.</td>
+  <td>Vinoth Kumar D</td>
+  <td>Pranav S R</td>
+  </tr>
+  <tr>  
+  <td>7.</td>
+  <td>Ashwin Anand</td>
+  <td>Ruthwik Krishna Bandreddy</td>
+  </tr>
+  <tr>  
+  <td>8.</td>
+  <td>Seran Pandiyan I P</td>
+  <td>Karanam Hitesh Manjunath</td>
+  </tr>
+  <tr> 
+  <td>9.</td>
+  <td>Nishanth S</td>
+  <td>M C Vivek Veera</td>
+  </tr>
+  <tr> 
+  <td>10.</td>
+  <td>Lakshmi Narayan P</td>
+  <td>Sanneganti Dharmik</td>
+  </tr>
+  <tr>
+  <td>11.</td>
+  <td>Venkata Revan Nagireddy</td>
+  <td>Gokulachselvan C D</td>
+  </tr>
+  <tr>
+  <td>12.</td>
+  <td>Kishore M</td>
+  <td>Aravind S</td>
+  </tr>
+  <tr>
+  <td>13.</td>
+  <td>Ram Surya Suresh Kumar</td>
+  <td>R Siddharth Krishna</td>
+  </tr>
+  <tr>
+  <td>14.</td>
+  <td>G Manomithran</td>
+  <td>Karaka Sri Sai Nitin</td>
+  </tr>
+  <tr>
+  <td>15.</td>
+  <td>Madari Kuruba Ganesh</td>
+  <td>Iniyan R</td>
+  </tr>
+  <tr>
+  <td>16.</td>
+  <td>Vishnu K</td>
+  <td>Aishwarya G</td>
+  </tr>
+  <tr>
+  <td>17.</td>
+  <td>G R Nitin</td>
+  <td>Alagu Soundarya G</td>
+  </tr>
+  <tr>
+  <td>18.</td>
+  <td>M K Ashwatha Prasad</td>
+  <td>Anu Priya P</td>
+  </tr>
+  <tr>
+    <td>19.</td>
+    <td>-</td>
+    <td>Deepthi J</td>
     </tr>
-    <tr>  
-    <td>Krishna</td>
-    <td>Madhav Harikumar</td>
-    </tr>
-    <tr>  
-    <td>Bacha</td>
-    <td>Golla Hemesh Sai</td>
-    </tr>
-    <tr>  
-    <td>Kurma</td>
-    <td>Shree Om Sharma</td>
-    </tr>
-    <tr>  
-    <td>Narasimha</td>
-    <td>Abinesh.G.</td>
-    </tr>
-    <tr>  
-    <td>Balarama</td>
-    <td>Tippireddy Pavan Kumar Reddy</td>
-    </tr>
-    <tr>  
-    <td>Parahsurama</td>
-    <td>Arjun.C.Santhosh</td>
-    </tr>
-    <tr>  
-    <td>Rama</td>
-    <td>Karanam Hitesh Manjunath</td>
-    </tr>
-    <tr>  
-    <td>Kalki</td>
-    <td>Ruthwik Krishna Bandreddy</td>
-    </tr>
-    <tr>  
-    <td>Vamana</td>
-    <td>Ponnu</td>
-    </tr>
-  </table>
+    
+    <tr>
+      <td>20.</td>
+      <td>-</td>
+      <td>Aishwarya G S</td>
+      </tr>
+      <tr>
+        <td>21.</td>
+        <td>-</td>
+        <td>Sri Sai Tanvi Sonti</td>
+        </tr>
+      <tr>
+        <td>22.</td>
+        <td>-</td>
+        <td>Sanjai Prashad  D</td>
+        </tr>
+        <tr>
+          <td>23.</td>
+          <td>-</td>
+          <td>Nithin S</td>
+          </tr>
+          <tr>
+            <td>24.</td>
+            <td>-</td>
+            <td>A S Deepan</td>
+            </tr>
+            <tr>
+              <td>25.</td>
+              <td>-</td>
+              <td>Achyuth Anand</td>
+              </tr>
+              <tr>
+                <td>26.</td>
+                <td>-</td>
+                <td>Penugonda V S Ganasekhar</td>
+                </tr>
+                <tr>
+                  <td>27.</td>
+                  <td>-</td>
+                  <td>Vinayak R</td>
+                  </tr>
+                  <tr>
+                    <td>28.</td>
+                    <td>-</td>
+                    <td>Madari Kuruba Ganesh</td>
+                    </tr>
+                    <tr>
+                      <td>29.</td>
+                      <td>-</td>
+                      <td>Sushmanth V M</td>
+                      </tr>
+                      <tr>
+                        <td>30.</td>
+                        <td>-</td>
+                        <td>Vinoth Kumar C</td>
+                        </tr>
+                        <tr>
+                          <td>31.</td>
+                          <td>-</td>
+                          <td>Sudeep V K</td>
+                          </tr>
+                          <tr>
+                            <td>32.</td>
+                            <td>-</td>
+                            <td>Mohamed Feroz Khan D</td>
+                            </tr>
+                            <tr>
+                              <td>33.</td>
+                              <td>-</td>
+                              <td>Pothuri Lakshmi Harika</td>
+                              </tr>
+                              <tr>
+                                <td>34.</td>
+                                <td>-</td>
+                                <td>Santhosh K P</td>
+                                </tr>
+                                <tr>
+                                  <td>35.</td>
+                                  <td>-</td>
+                                  <td>Pandya Tanvi Kamalkumar</td>
+                                  </tr>
+                                  
+  
+
+  
+</table>
+<h2><p style="font-size:120%;font-family:Consolas";> Dashavatara </p></h2> 
+<table>
+  <th style="text-align:center">Avatar</th>
+  <th style="text-align:center"> Name of the Student</th>
+  </tr>  
+  <tr>  
+  <td>Matysa</td>
+  <td>Golla Hemesh Sai</td>
+  </tr>
+  <tr>  
+  <td>Kurma</td>
+  <td>Shree Om Sharma</td>
+  </tr>
+  <tr>  
+  <td>Varaha</td>
+  <td>Sudipt Kumar</td>
+  </tr>
+  <tr>  
+  <td>Narasimha</td>
+  <td>Abinesh G</td>
+  </tr>
+  <tr>  
+  <td>Vamana</td>
+  <td>Ponnu</td>
+  </tr>
+  <tr>  
+  <td>Parasuram</td>
+  <td>Arjun C Santhosh</td>
+  </tr>
+  <tr>  
+  <td>Rama</td>
+  <td>Karanam Hitesh Manjunath</td>
+  </tr>
+  <tr>
+  <td>Balarama</td>
+  <td>Tippireddy Pavan Kumar Reddy</td>
+  </tr>
+  <tr>  
+  <td>Krishna</td>
+  <td>Madhav Harikumar</td>
+  <tr>  
+  <td>Kalki</td>
+  <td>Ruthwik Krishna Bandreddy</td>
+  </tr>
+</table>
   
 </div>
 
 <div id="Budget" class="tabcontent">
+  <center><img src="https://c.tenor.com/7k0Eh3Jwg1MAAAAM/approved-stamp-of-approval.gif"></center>
 	<style>
 		
 	</style>
   <h2><p class="blink" style="font-size:120%;font-family:Consolas">The following budget value is a dummy value. Please ignore it.</p></h2>
   <h2><p class="blink" style="font-size:120%;font-family:Consolas";> Planned Budget : ₹ 55,000</p></h2>
   <b><h2><p style="font-size:120%;font-family:Consolas;">
-  Please <a href="https://manbendra2014.github.io/Gokulashtami/Assets/2022/html/budget.html" style="text-decoration: none;">click here</a> for more detailed information.
+  Please <a href="C:\Users\dell\Desktop\GOKULASTHAMI\BUDGET.html" style="text-decoration: none;">click here</a> for more detailed information.
   </b></h2></p>
+  
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
+  
+   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   
+     <style>
+      
+       
+   
+  .b-skills
+  {
+    border-top: 1px solid #f9f9f9;
+    padding-top: 46px;
+    text-align: center;
+  }
+  
+  .b-skills:last-child { margin-bottom: -30px; }
+  
+  .b-skills h2 { margin-bottom: 50px; font-weight: 900; text-transform: uppercase;}
+  
+  .skill-item
+  {
+    position: relative;
+    max-width: 250px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .chart-container
+  {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    margin-bottom: 27px;
+  }
+  
+  .skill-item .chart,
+  .skill-item .chart canvas
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .skill-item .chart:before
+  {
+    content: "";
+    width: 0;
+    height: 100%;
+  }
+  
+  .skill-item .chart:before,
+  .skill-item .percent
+  {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .skill-item .percent
+  {
+    position: relative;
+    line-height: 1;
+    font-size: 40px;
+    font-weight: 900;
+    z-index: 2;
+  }
+  
+  .skill-item  .percent:after
+  {
+    content: attr(data-after);
+    font-size: 20px;
+  }
+         
+         p{
+             font-weight: 900;
+         }
+   
+      
+      </style>
+   
+    
+    
+   
+  </head>
+  
+  <body>
+   
+    
+  <br><br><br><br>
+     
+      <section id="s-team" class="section">
+         
+        <br><br><br>
+  
+        <div class="b-skills">
+          <div class="container">
+            <h2>Planned Budget</h2>
+  
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="skill-item center-block">
+                  <div class="chart-container">
+                    <div class="chart " data-percent="13" data-bar-color="#23afe3">
+                      <span class="percent" data-after="%">13</span>
+                    </div>
+                  </div>
+  
+                  <p>Costume</p>
+                </div>
+              </div>
+  
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="skill-item center-block">
+                  <div class="chart-container">
+                    <div class="chart " data-percent="20" data-bar-color="#a7d212">
+                      <span class="percent" data-after="%">20</span>
+                    </div>
+                  </div>
+  
+                  <p>Food and Snacks</p>
+                </div>
+              </div>
+  
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="skill-item center-block">
+                  <div class="chart-container">
+                    <div class="chart " data-percent="17" data-bar-color="#ff4241">
+                      <span class="percent" data-after="%">17</span>
+                    </div>
+                  </div>
+  
+                  <p>Instruments</p>
+                </div>
+              </div>
+  
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="skill-item center-block">
+                  <div class="chart-container">
+                    <div class="chart " data-percent="50" data-bar-color="#edc214">
+                      <span class="percent" data-after="%">50</span>
+                    </div>
+                  </div>
+  
+                  <p>Float</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+          <br><br><br><br><br>
+      
+   
+   
+    <br><br><br><br>  
+    
+    
+    
+   <script src="C:\Users\dell\Desktop\GOKULASTHAMI\jquery-2.2.4.min.js"></script>
+   <script src="C:\Users\dell\Desktop\GOKULASTHAMI\jquery.appear.min.js"></script>
+   <script src="C:\Users\dell\Desktop\GOKULASTHAMI\jquery.easypiechart.min.js"></script> 
+   <script>
+      'use strict';
+  
+  var $window = $(window);
+  
+  function run()
+  {
+    var fName = arguments[0],
+      aArgs = Array.prototype.slice.call(arguments, 1);
+    try {
+      fName.apply(window, aArgs);
+    } catch(err) {
+       
+    }
+  };
+   
+  /* chart
+  ================================================== */
+  function _chart ()
+  {
+    $('.b-skills').appear(function() {
+      setTimeout(function() {
+        $('.chart').easyPieChart({
+          easing: 'easeOutElastic',
+          delay: 3000,
+          barColor: '#369670',
+          trackColor: '#fff',
+          scaleColor: false,
+          lineWidth: 21,
+          trackWidth: 21,
+          size: 250,
+          lineCap: 'round',
+          onStep: function(from, to, percent) {
+            this.el.children[0].innerHTML = Math.round(percent);
+          }
+        });
+      }, 150);
+    });
+  };
+   
+  
+  $(document).ready(function() {
+    
+    run(_chart);
+    
+      
+  });
+  
+  
+      
+      </script>
+   
+     
+  </body>
 
   </div>
 
+  
+
 <div id="Spendings" class="tabcontent">
+  <center><img src="https://media3.giphy.com/media/QdUC2kfFdu6rmKX8Uy/giphy.gif?cid=790b761161891b1e15ffe39c466ed23b8aea343813baa4ab&rid=giphy.gif&ct=s" style="width:250px;height:250px"></center>
 	<style>
 		
 	</style>
+
 	<h2><p class="blink2" style="font-size:120%;font-family:Consolas">The amount of money spent is a dummy value. Please ignore it.</p></h2>
 	<h2><p class="blink2" style="font-size:120%;font-family:Consolas";> Total Spending: ₹ 0</p></h2>
 	<b><h2><p style="font-size:120%;font-family:Consolas">
-		Please<a href="https://manbendra2014.github.io/Gokulashtami/Assets/2022/html/spendings.html" style="text-decoration: none;"> click here</a> for more detailed information.
+		Please<a href="C:\Users\dell\Desktop\GOKULASTHAMI\SPENDINGS.html" style="text-decoration: none;"> click here</a> for more detailed information.
 		</b></h2></p>
 </div>
 
 <div id="Item Stock" class="tabcontent">
-  <h3>Item Stock</h3>
-  <h2><p style="font-size:120%;font-family:Consolas";> The Items in the Stock are : </p></h2>
+  <center><img src="https://cdn.dribbble.com/users/330915/screenshots/3423461/1_amplify_share.gif" style="width:500px;height:250px"></center>
   <table>
     <tr>
-      <center>Items in the Stock</center>
-      <th>Serial Number</th>
-      <th>Name of the Item</th>
-      <th>Current Status</th>
-      <th>Quantity</th>
-	  <th>Name of the Student ( Took the Stock )</th>
-	  <th>Date ( Took the Stock )</th>
+      
+      <th style="text-align:center">Serial Number</th>
+      <th style="text-align:center">Date</th>
+      <th style="text-align:center">Name of the Item</th>
+      <th style="text-align:center">Current Status</th>
+	  <th style="text-align:center">Quantity</th>
+	  <th style="text-align:center">Name of the Requester</th>
     </tr>
 	<tr>
 		<td>1.</td>
+		<td>25.09.2022</td>
 		<td>Food</td>
 		<td class="blink2">In Stock</td>
 		<td>250</td>
 		<td>Karanam Hitesh Manjunath</td>
-		<td>-</td>
 	  </tr>
 </div>
 
 <div id="Gallery" class="tabcontent">
   <h3>Gallery</h3>
+  
   
   <p></p>
 </div>
