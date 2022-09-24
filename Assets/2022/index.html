@@ -1,16 +1,81 @@
 <!DOCTYPE html>
 <html>
 <!--
-Author: Manbendra Satpathy
-Date  : 19-Sept-2022
+Author		: Manbendra Satpathy
+Created Date: 19-Sept-2022
+Updated 	: 25-Sept-2022
+Reviewed by	: Ramaguru Radhakrishnan
+Description : Gokulashtami Webpage for 2022 
 -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {box-sizing: border-box}
+
+* {box-sizing: border-box;}
+	body {font-family: Verdana, sans-serif; }
+	.mySlides {display: none;}
+	img {vertical-align: middle;}
+
+	/* Slideshow container */
+	.slideshow-container {
+	  max-width: 1000px;
+	  position: relative;
+	  margin: auto;
+	}
+
+	/* Caption text */
+	.text {
+	  color: #f2f2f2;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  bottom: 8px;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+	  color: #f2f2f2;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+
+	.active {
+	  background-color: #717171;
+	}
+
+	/* Fading animation */
+	.fade {
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .text {font-size: 11px}
+	}
 
 body, html {
-  height: 100%;
-  margin: 0;
+  height: 80%;
+  margin: 5;
   font-family: Arial;
 }
 
@@ -147,16 +212,23 @@ a:active {
   flex: 33.33%;
   padding: 5px;
 }
+
 #Event Coordinator {background-color: white;}
 #Team List {background-color: white;}
 #Budget {background-color: white;}
 #Spendings {background-color: white;}
 #Item Stock {background-color: white;}
 #Gallery {background-color: white;}
+
+footer#main-footer {
+  background: #777;
+  color: #fff; 
+  position: fixed; bottom: 0; width: 100%; font-size:70%;}
+  
 </style>
 
 <head>
-	<title> GOKULASTHAMI 2022</title>
+	<title> Gokulashtami 2022</title>
 	 <link rel = "icon" href = "https://camo.githubusercontent.com/a955ede62303c3afaefb7045576704fbc0035bfa557bcae93af08c50204b67e9/68747470733a2f2f616d726974612e6564752f77702d636f6e74656e742f75706c6f6164732f323032312f30392f313539373636383734343236392e6a7067" type = "image">
 </head>
 <body>
@@ -168,12 +240,12 @@ a:active {
 		  <center><img src="https://camo.githubusercontent.com/a955ede62303c3afaefb7045576704fbc0035bfa557bcae93af08c50204b67e9/68747470733a2f2f616d726974612e6564752f77702d636f6e74656e742f75706c6f6164732f323032312f30392f313539373636383734343236392e6a7067" style="width:120px"></center>
 		</div>
 		
-	  </div>
-  <div class="tech-slideshow">
-    <div class="mover-1"></div>
-    <div class="mover-2"></div>
-  </div>
-  <h1><p class="rainbow-text" style="font-size:108%;font-family:Calibri"; >GOKULASTHAMI 2022</p></h1>
+	</div>
+<div class="tech-slideshow">
+	<div class="mover-1"></div>
+	<div class="mover-2"></div>
+</div>
+<h1><p class="rainbow-text" style="font-size:108%;font-family:Calibri"; >GOKULASTHAMI 2022</p></h1>
 
 <b><button class="tablink" onclick="openPage('Event Coordinator', this, 'magenta')" id="defaultOpen">Event Coordinators</button></b>
 <b><button class="tablink" onclick="openPage('Team List', this, 'orange')">Teams List</button></b>
@@ -188,11 +260,10 @@ a:active {
     <tr>
       <th style="text-align:center">Event</th>
       <th style="text-align:center">B.Tech SPOC - 1</th>
-      <th style="text-align:center">B.Tech SPOC- 2</th>
+      <th style="text-align:center">B.Tech SPOC - 2</th>
       <th style="text-align:center">M.Tech SPOC - 1</th>
       <th style="text-align:center">M.Tech SPOC - 2</th>
     </tr>
-    
   <tr>  
   <td>Dance</td>
   <td>Kavali Sai Suvarchala</td>
@@ -304,11 +375,10 @@ a:active {
   <h3><p style="font-size:100%;font-family:Consolas";>Cultural Events</p></h3> 
   <table>
     <tr>
-  <th style="text-align:center">Serial Number</th>
+	<th style="text-align:center">Serial Number</th>
       <th style="text-align:center">Dance</th>
       <th style="text-align:center">Song</th>
-    </tr>
-    
+    </tr> 
   <tr>  
   <td>1.</td>
   <td>Kavali Sai Suvarchala</td>
@@ -350,6 +420,7 @@ a:active {
   <td>Karthika P</td>
   </tr>
   </table>  
+  <br/>
   <h3><p style="font-size:100%;font-family:Consolas";> Other Events </p></h3> 
   <table>
   <tr>
@@ -452,7 +523,6 @@ a:active {
     <td>-</td>
     <td>Deepthi J</td>
     </tr>
-    
     <tr>
       <td>20.</td>
       <td>-</td>
@@ -533,11 +603,8 @@ a:active {
                                   <td>-</td>
                                   <td>Pandya Tanvi Kamalkumar</td>
                                   </tr>
-                                  
-  
-
-  
 </table>
+<br/>
 <h3><p style="font-size:100%;font-family:Consolas";> Dashavatara </p></h3> 
 <table>
   <th style="text-align:center">Avatar</th>
@@ -588,17 +655,15 @@ a:active {
 
 <div id="Budget" class="tabcontent">
   <center><img src="https://c.tenor.com/7k0Eh3Jwg1MAAAAM/approved-stamp-of-approval.gif"></center>
-  <h2><p class="blink" style="font-size:60%;font-family:Consolas">The following budget value is a dummy value. Please ignore it.</p></h2>
   <h2><p class="blink" style="font-size:60%;font-family:Consolas";> Planned Budget : ₹ 55,000</p></h2>
   <b><h2><p style="font-size:60%;font-family:Consolas;">
-  Please <a href="html/budget.html" style="text-decoration: none;">click here</a> for more detailed information.
-  </b></h2></p>
+  Please <a href="html/budget.html" style="text-decoration: none;">click here</a> for more detailed information.</b></h2></p>
   
   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
   
-   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
    
-     <style>
+  <style>
       
   .b-skills
   {
@@ -674,9 +739,7 @@ a:active {
    
       
       </style>
-
-  <br><br>
-     
+    
       <section id="s-team" class="section">
          
         <br><br><br>
@@ -724,9 +787,7 @@ a:active {
             </div>
           </div>
         </div>
-      </section>
-          <br><br>
-      
+      </section>     
 
    <script src="js/jquery-2.2.4.min.js"></script>
    <script src="js/jquery.appear.min.js"></script>
@@ -779,208 +840,81 @@ a:active {
       
   });
   
-      </script>
+  </script>
   
   </div>
 
 <div id="Spendings" class="tabcontent">
-  <center><img src="https://media3.giphy.com/media/QdUC2kfFdu6rmKX8Uy/giphy.gif?cid=790b761161891b1e15ffe39c466ed23b8aea343813baa4ab&rid=giphy.gif&ct=s" style="width:250px;height:250px"></center>
+  <center><img src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/money-with-wings_1f4b8.gif" style="width:250px;height:250px"></center>
 
-	<h2><p class="blink2" style="font-size:60%;font-family:Consolas">The amount of money spent is a dummy value. Please ignore it.</p></h2>
-	<h2><p class="blink2" style="font-size:60%;font-family:Consolas";> Total Spending: ₹ 0</p></h2>
+	<h2><p class="blink2" style="font-size:60%;font-family:Consolas";> Total Spending: ₹ 5000</p></h2>
 	<b><h2><p style="font-size:60%;font-family:Consolas">
-		Please<a href="html/spendings.html" style="text-decoration: none;"> click here</a> for more detailed information.
-		</b></h2></p>
+	Please<a href="html/spendings.html" style="text-decoration: none;"> click here</a> for more detailed information.</b></h2></p>
 </div>
 
 <div id="Item Stock" class="tabcontent">
-  <center><img src="https://cdn.dribbble.com/users/330915/screenshots/3423461/1_amplify_share.gif" style="width:500px;height:250px"></center>
-  <table>
-    <tr>
-      <th style="text-align:center">Serial Number</th>
-      <th style="text-align:center">Date</th>
-      <th style="text-align:center">Name of the Item</th>
-      <th style="text-align:center">Current Status</th>
-	  <th style="text-align:center">Quantity</th>
-	  <th style="text-align:center">Name of the Requester</th>
-    </tr>
-	<tr>
-		<td>1.</td>
-		<td>25.09.2022</td>
-		<td>Food</td>
-		<td class="blink2">In Stock</td>
-		<td><<Quantity>></td>
-		<td><<Name>></td>
-	  </tr>
+	<center><img src="https://cdn.dribbble.com/users/330915/screenshots/3423461/1_amplify_share.gif" style="width:500px;height:250px"></center>
+	<table>
+		<tr>
+			<th style="text-align:center">Serial Number</th>
+			<th style="text-align:center">Date</th>
+			<th style="text-align:center">Name of the Item</th>
+			<th style="text-align:center">Current Status</th>
+			<th style="text-align:center">Quantity</th>
+			<th style="text-align:center">Name of the Requester</th>
+		</tr>
+		<tr>
+			<td>1.</td>
+			<td>25.09.2022</td>
+			<td>Dummy</td>
+			<td class="blink2">In Stock</td>
+			<td>Dummy</td>
+			<td>Ramaguru</td>
+		</tr>
+	</table>
 </div>
 
 <div id="Gallery" class="tabcontent">
-<h3>Gallery</h3>
 	
-	<style>
-	* {box-sizing: border-box;}
-	body {font-family: Verdana, sans-serif;}
-	.mySlides {display: none;}
-	img {vertical-align: middle;}
+	<center>	
 
-	/* Slideshow container */
-	.slideshow-container {
-	  max-width: 1000px;
-	  position: relative;
-	  margin: auto;
-	}
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext">1</div>
+			<img src= "https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/images/M1.jpg" style="width:75%">
+		</div>
 
-	/* Caption text */
-	.text {
-	  color: #f2f2f2;
-	  font-size: 15px;
-	  padding: 8px 12px;
-	  position: absolute;
-	  bottom: 8px;
-	  width: 100%;
-	  text-align: center;
-	}
+		<div class="mySlides fade">
+			<div class="numbertext">2</div>
+			<img src="https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/images/M2.jpg" style="width:75%">
+		</div>
 
-	/* Number text (1/3 etc) */
-	.numbertext {
-	  color: #f2f2f2;
-	  font-size: 12px;
-	  padding: 8px 12px;
-	  position: absolute;
-	  top: 0;
-	}
+		<div class="mySlides fade">
+			<div class="numbertext">3</div>
+			<img src="https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/images/M3.jpg" style="width:75%">
+		</div>
+			
+		<div class="mySlides fade">
+			<div class="numbertext">4</div>
+			<img src="https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/images/M4.jpg" style="width:75%">
+		</div>
+			
+		<div class="mySlides fade">
+			<div class="numbertext">5</div>
+			<img src="https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/images/M5.jpg" style="width:75%">
+		</div>
 
-	/* The dots/bullets/indicators */
-	.dot {
-	  height: 15px;
-	  width: 15px;
-	  margin: 0 2px;
-	  background-color: #bbb;
-	  border-radius: 50%;
-	  display: inline-block;
-	  transition: background-color 0.6s ease;
-	}
-
-	.active {
-	  background-color: #717171;
-	}
-
-	/* Fading animation */
-	.fade {
-	  animation-name: fade;
-	  animation-duration: 1.5s;
-	}
-
-	@keyframes fade {
-	  from {opacity: .4} 
-	  to {opacity: 1}
-	}
-
-	/* On smaller screens, decrease text size */
-	@media only screen and (max-width: 300px) {
-	  .text {font-size: 11px}
-	}
-</style>
-
-<div class="slideshow-container">
-<div class="mySlides fade">
-  <div class="numbertext">1 / 15</div>
-  <img src= "https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1117.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 15</div>
-  <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1116.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1114.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1113_updated.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1053.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1051.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">7 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1050.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">8 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1048.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-    <div class="mySlides fade">
-    <div class="numbertext">9 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1047.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">10 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/IMG_1033.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">11 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/new_1664027017254.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">12 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/new_1664027017262.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">13 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/new_1664027017266.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">14 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/new_1664027017271.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">15 / 15</div>
-    <img src="https://manbendra2014.github.io/Gokulashtami/Assets/2022/new_1664027017248.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-</div>
-<br>
-
-	<div style="text-align:center">
-	  <span class="dot"></span> 
-	  <span class="dot"></span> 
-	  <span class="dot"></span>
-	  <span class="dot"></span>
-	  <span class="dot"></span>
-	  <span class="dot"></span>
-	  <span class="dot"></span>
-	  <span class="dot"></span> 
-	  <span class="dot"></span>
-	  <span class="dot"></span>
-	  <span class="dot"></span>
-	  <span class="dot"></span>
-	  <span class="dot"></span>
-	  <span class="dot"></span>
-	  <span class="dot"></span>
 	</div>
 
+
+	<div style="text-align:center">
+		<span class="dot"></span> 
+		<span class="dot"></span> 
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+	</center>
 	<script>
 	let slideIndex = 0;
 	showSlides();
@@ -990,12 +924,12 @@ a:active {
 	  let slides = document.getElementsByClassName("mySlides");
 	  let dots = document.getElementsByClassName("dot");
 	  for (i = 0; i < slides.length; i++) {
-	    slides[i].style.display = "none";  
+		slides[i].style.display = "none";  
 	  }
 	  slideIndex++;
 	  if (slideIndex > slides.length) {slideIndex = 1}    
 	  for (i = 0; i < dots.length; i++) {
-	    dots[i].className = dots[i].className.replace(" active", "");
+		dots[i].className = dots[i].className.replace(" active", "");
 	  }
 	  slides[slideIndex-1].style.display = "block";  
 	  dots[slideIndex-1].className += " active";
@@ -1022,6 +956,9 @@ function openPage(pageName,elmnt,color) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
-   
+
 </body>
+  <footer id="main-footer">
+          <center> Copyright &copy; 2022. Manbendra Satpathy <br/> Part of 20CYS202 - User Interface Design <br/> TIFAC-CORE in Cyber Security, Amrita Vishwa Vidyapeetham, Coimbatore </center>
+  </footer>  
 </html> 
