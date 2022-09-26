@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--
+Author		: Manbendra Satpathy
+Created Date: 19-Sept-2022
+Updated 	: 26-Sept-2022
+Reviewed by	: Ramaguru Radhakrishnan
+Description : Gokulashtami Webpage for 2022 
+-->
+<html lang="en-US">
+  <style>
+  
+  .red_green-text {
+  background-image: repeating-linear-gradient(45deg, green, red,);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  animation: blinking 1s alternate infinite;
+}
+
+@keyframes blinking  {
+  0%   {background-color: red;}
+  25%  {background-color: greenyellow;}
+  50%  {background-color: orange;}
+  100% {background-color: green;}
+}
+
+
+  .tech-slideshow {
+  height: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/003/225/888/small/funny-cartoon-character-lord-krishna-vector.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 10s alternate infinite;
+}
+
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -200px;
+  animation: moveSlideshow 15s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.rainbow-text {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  animation: rainbow 5s alternate infinite;
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+</style>
+<head>
+  <title> Gokulashtami 2022</title>
+     <link rel = "icon" href = "https://camo.githubusercontent.com/a955ede62303c3afaefb7045576704fbc0035bfa557bcae93af08c50204b67e9/68747470733a2f2f616d726974612e6564752f77702d636f6e74656e742f75706c6f6164732f323032312f30392f313539373636383734343236392e6a7067" type = "image">
+  </head>
+  <body>
+    <div class="row">
+      <div class="column">
+        <center><img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Amrita-vishwa-vidyapeetham-color-logo.png" style="width:360px"><center>
+      </div>
+      <div class="column">
+        <center><img src="https://camo.githubusercontent.com/a955ede62303c3afaefb7045576704fbc0035bfa557bcae93af08c50204b67e9/68747470733a2f2f616d726974612e6564752f77702d636f6e74656e742f75706c6f6164732f323032312f30392f313539373636383734343236392e6a7067" style="width:120px"></center>
+      </div>
+    </div>
+  <div class="tech-slideshow">
+    <div class="mover-1"></div>
+    <div class="mover-2"></div>
+  </div>
+  <h1><p class="rainbow-text" style="font-size:150%;font-family:Calibri";>GOKULASTHAMI 2022</p></h1>
+  <div class="row">
+    <div class="column">
+      <center><img src="https://c.tenor.com/7k0Eh3Jwg1MAAAAM/approved-stamp-of-approval.gif"></center>
+    </div>
+    <div class="column">
+      <h1><p class="red_green-text" style="font-size:108%;font-family:Calibri";>BUDGET AND SPENDINGS</p></h1>
+    </div>
+    <div class="column">
+      <center><img src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/money-with-wings_1f4b8.gif" style="width:250px;height:250px"></center>
+    </div>
+  </div>
+  <table>
+    <tr>
+      <th style="text-align:center">Serial Number</th>
+      <th style="text-align:center">Date</th>
+      <th style="text-align:center">Cost Description</th>
+      <th style="text-align:center">Budget</th>
+      <th style="text-align:center">Actually Spent</th>
+      <th style="text-align:center">Balance</th>
+      <th style="text-align:center">Cummulative</th>
+      <th style="text-align:center">Name</th>
+    </tr>
+    <tr>
+    <td>1.</td>
+    <td>25.09.2022</td>
+    <td>Travel Expense - Train + Bus</td>
+    <td>2500</td>
+    <td>840</td>
+    <td>1660</td>
+    <td>-</td>
+    <td>Ramaguru Radhakrishnan</td>
+    </tr>
+    <tr>
+    <td>2.</td>
+    <td>25.09.2022</td>
+    <td>Instrumentals - Tasha</td>
+    <td>2500</td>
+    <td>2240</td>
+    <td>60</td>
+    <td>-</td>
+    <td>Yuvaraj Kumar G P</td>
+    </tr>
+    <tr>
+    <td>3.</td>
+    <td>25.09.2022</td>
+    <td>Makeup Kit</td>
+    <td>4500</td>
+    <td>1742</td>
+    <td>2758</td>
+    <td>-</td>
+    <td>Pandya Tanvi Kamalkumar</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+</html>
