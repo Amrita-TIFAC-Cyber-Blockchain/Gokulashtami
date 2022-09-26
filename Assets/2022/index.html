@@ -220,10 +220,13 @@ a:active {
 #Item Stock {background-color: white;}
 #Gallery {background-color: white;}
 
-footer#main-footer {
+footer {
   background: #777;
   color: #fff; 
-  position: fixed; bottom: 0; width: 100%; font-size:70%;}
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+  font-size:70%; }
   
 </style>
 
@@ -657,7 +660,7 @@ footer#main-footer {
   <center><img src="https://c.tenor.com/7k0Eh3Jwg1MAAAAM/approved-stamp-of-approval.gif"></center>
   <h2><p class="blink" style="font-size:60%;font-family:Consolas";> Planned Budget : ₹ 55,000</p></h2>
   <b><h2><p style="font-size:60%;font-family:Consolas;">
-  Please <a href="html/budget.html" style="text-decoration: none;">click here</a> for more detailed information.</b></h2></p>
+  Please <a href="html/budget_spendings.html" style="text-decoration: none;">click here</a> for more detailed information.</b></h2></p>
   
   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
   
@@ -849,7 +852,7 @@ footer#main-footer {
 
 	<h2><p class="blink2" style="font-size:60%;font-family:Consolas";> Total Spending: ₹ 5000</p></h2>
 	<b><h2><p style="font-size:60%;font-family:Consolas">
-	Please<a href="html/spendings.html" style="text-decoration: none;"> click here</a> for more detailed information.</b></h2></p>
+	Please<a href="html/budget_spendings.html" style="text-decoration: none;"> click here</a> for more detailed information.</b></h2></p>
 </div>
 
 <div id="Item Stock" class="tabcontent">
@@ -903,6 +906,21 @@ footer#main-footer {
 			<div class="numbertext">5</div>
 			<img src="https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/images/M5.jpg" style="width:75%">
 		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">6</div>
+			<img src="https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/images/M6.jpeg" style="width:75%">
+		</div>
+
+    		<div class="mySlides fade">
+			<div class="numbertext">7</div>
+			<img src="https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/images/M7.jpeg" style="width:75%">
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">8</div>
+			<img src="https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/images/M8.jpeg" style="width:75%">
+		</div>
 
 	</div>
 
@@ -910,6 +928,9 @@ footer#main-footer {
 	<div style="text-align:center">
 		<span class="dot"></span> 
 		<span class="dot"></span> 
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
 		<span class="dot"></span>
 		<span class="dot"></span>
 		<span class="dot"></span>
@@ -933,7 +954,7 @@ footer#main-footer {
 	  }
 	  slides[slideIndex-1].style.display = "block";  
 	  dots[slideIndex-1].className += " active";
-	  setTimeout(showSlides, 5000); // Change image every 2 seconds
+	  setTimeout(showSlides, 10000); // Change image every 10 seconds
 	}
 	</script>
 </div>
@@ -958,7 +979,7 @@ document.getElementById("defaultOpen").click();
 </script>
 
 </body>
-  <footer id="main-footer">
+  <footer>
           <center> Copyright &copy; 2022. Manbendra Satpathy <br/> Part of 20CYS202 - User Interface Design <br/> TIFAC-CORE in Cyber Security, Amrita Vishwa Vidyapeetham, Coimbatore </center>
   </footer>  
 </html> 
