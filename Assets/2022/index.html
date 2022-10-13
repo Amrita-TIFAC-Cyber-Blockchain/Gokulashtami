@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html>
 <!--
 Author		: Manbendra Satpathy
 Created Date	: 19-Sept-2022
-Updated 	: 06-Oct-2022
+Updated 	: 13-Oct-2022
 Reviewed by	: Ramaguru Radhakrishnan
 Description 	: Gokulashtami Webpage for 2022 
 -->
@@ -89,7 +88,7 @@ body, html {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 16.667%;
+  width: 14.285%;
 }
 
 .tablink:hover {
@@ -135,11 +134,27 @@ tr:nth-child(even) {
 
 .blinkf {
   animation: blinker 1s linear infinite;
-  color: orange;
+  color: darkorange;
+}
+
+.blinkw {
+  animation: blinker 1s linear infinite;
+  color: green;
 }
 	
 .blinkp {
+  animation: blinker 1s linear infinite;
   color: blue;
+}
+
+.blinkr {
+  animation: blinker 1s linear infinite;
+  color: red;
+}
+
+.blinkna {
+  animation: blinker 1s linear infinite;
+  color: red;
 }
 	
 @keyframes blinker {
@@ -164,43 +179,6 @@ tr:nth-child(even) {
     100%{background-position:0% 50%}
 }
 
-.tech-slideshow {
-  height: 200px;
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  transform: translate3d(0, 0, 0);
-}
-
-.tech-slideshow > div {
-  height: 200px;
-  width: 2526px;
-  background: url(https://static.vecteezy.com/system/resources/thumbnails/003/225/888/small/funny-cartoon-character-lord-krishna-vector.jpg);
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  transform: translate3d(0, 0, 0);
-}
-
-.tech-slideshow .mover-1 {
-  animation: moveSlideshow 20s alternate infinite;
-}
-
-.tech-slideshow .mover-2 {
-  opacity: 0;
-  transition: opacity 0.5s ease-out;
-  background-position: 0 -200px;
-  animation: moveSlideshow 15s linear infinite;
-}
-
-@keyframes moveSlideshow {
-  100% { 
-    transform: translateX(-66.6666%);  
-  }
-}
-
 a:hover {
   color: gold;
   text-decoration: none;
@@ -221,10 +199,11 @@ a:active {
 
 .column {
   flex: 33.33%;
-  padding: 5px;
+  padding: 2px;
 }
 
-#Event Coordinator {background-color: white;}
+#Faculty Coordinators {background-color: white;}
+#Student Coordinators {background-color: white;}
 #Team List {background-color: white;}
 #Competition {background-color: white;}
 #Expenditure {background-color: white;}
@@ -253,21 +232,72 @@ footer {
 		<div class="column">
 		  <center><img src="https://camo.githubusercontent.com/a955ede62303c3afaefb7045576704fbc0035bfa557bcae93af08c50204b67e9/68747470733a2f2f616d726974612e6564752f77702d636f6e74656e742f75706c6f6164732f323032312f30392f313539373636383734343236392e6a7067" style="width:120px"></center>
 		</div>
-		
 	</div>
 <div>
-	 <center><img src="../CYS_Gokulashtami_Logo.png" style="width:440px"><center>
+	 <center><img src="https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/CYS_Gokulashtami_Logo.png" style="width:440px"><center>
 </div>
 <br>
-		 
-<b><button class="tablink" onclick="openPage('Event Coordinator', this, 'magenta')" id="defaultOpen">Event Coordinators</button></b>
+
+<b><button class="tablink" onclick="openPage('Faculty Coordinators', this, 'violet')" id="defaultOpen">Faculty Coordinators</button></b>		 
+<b><button class="tablink" onclick="openPage('Student Coordinators', this, 'magenta')">Student Coordinators</button></b>
 <b><button class="tablink" onclick="openPage('Team List', this, 'orange')">Teams List</button></b>
-<b><button class="tablink" onclick="openPage('Competition', this, 'violet')">Competition</button></b>
+<b><button class="tablink" onclick="openPage('Competition', this, 'blue')">Competition</button></b>
 <b><button class="tablink" onclick="openPage('Expenditure', this, 'red')" >Expenditure</button></b>
-<b><button class="tablink" onclick="openPage('Item Stock', this, 'blue')">Item Stock</button></b>
+<b><button class="tablink" onclick="openPage('Item Stock', this, 'green')">Item Stock</button></b>
 <b><button class="tablink" onclick="openPage('Gallery', this, 'indigo')">Gallery</button></b>
 
-<div id="Event Coordinator" class="tabcontent">
+<div id="Faculty Coordinators" class="tabcontent">
+  <center><img src = "https://i.pinimg.com/originals/de/8e/05/de8e05d4ffaf53f4c985f5f66d81532c.gif"></center>
+    <table>
+      <tr>
+      <th style="text-align:center">Serial No.</th>
+      <th style="text-align:center">Name of the Faculty</th>
+      <th style="text-align:center">Event</th>
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td>Mr. Ramaguru Radhakrishnan</td>
+      <td>Overall Coordinator</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Mr. Saurabh Shrivastava</td>
+      <td>Float Coordinator</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Dr. Lakshmy K V</td>
+      <td>Procession Coordinator</td>
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td>Dr. Sangeetha Vishwanathan </td>
+      <td>Sports Event Coordinator</td>
+    </tr>
+    <tr>
+      <td>5.</td>
+      <td>Dr. Praveen K</td>
+      <td>Campus Decoration Coordinator</td>
+    </tr>
+    <tr>
+      <td>6.</td>
+      <td>Dr. Amritha P P</td>
+      <td>Discipline Coordinator</td>
+    </tr>
+    <tr>
+      <td>7.</td>
+      <td>Ms. Ambili Kakkad Narayanan</td>
+      <td>Restoration Coordinator</td>
+    </tr>
+    <tr>
+      <td>8.</td>
+      <td>Dr. Chungath Srinivasan</td>
+      <td>Finance Coordinator</td>
+    </tr>
+    </table>
+    <br><br><br><br>
+    </div>
+<div id="Student Coordinators" class="tabcontent">
 <center><img src = "https://i.pinimg.com/originals/de/8e/05/de8e05d4ffaf53f4c985f5f66d81532c.gif"></center>
   <table>
     <tr>
@@ -287,70 +317,74 @@ footer {
   <tr>
   <td>Singing</td>
   <td>Harshitha Ranjith</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>Aishwarya G S</td>
+  <td class="blinkna">N/A</td>
+  <td class="blinkna">N/A</td>
 </tr>
   <tr>
   <td>Instruments</td>
   <td>Yuvaraj Kumar G P</td>
   <td>Sushmanth V M</td>
-  <td>-</td>
-  <td>-</td>
+  <td class="blinkna">N/A</td>
+  <td class="blinkna">N/A</td>
 </tr>
   <tr>
   <td>Float Overall</td>
   <td>Kishanth K</td>
   <td>Alooysius Vitalian J</td>
-  <td>-</td>
+  <td>Shebu</td>
   <td>Mohammed Feroz Khan D</td>
 </tr>
   <tr>
   <td>Painting</td>
   <td>Niran R</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>Kishanth K</td>
+  <td>Remya</td>
+  <td>Shanthosh K P</td>
 </tr>
   <tr>
   <td>Procession</td>
   <td>Ruthwik Krishna Bandreddy</td>
   <td>Deepthi J</td>
-  <td>-</td>
-  <td>-</td>
+  <td class="blinkna">N/A</td>
+  <td>H Nikhitha</td>
 </tr>
   <tr>
   <td>Photogrpahy</td>
   <td>Alooysius Vitalian J</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>Saranesh E S</td>
+  <td class="blinkna">N/A</td>
+  <td>Vignesh</td>
 </tr>
   <tr>
   <td>Material Procurement</td>
-  <td>Kishore M</td>
-  <td>Sudeep V K</td>
-  <td>-</td>
-  <td>-</td>
+  <td>Kishore M
+  <br>Sudeep V K</td>
+  <td>A S Deepan
+  <br>Aravind S</td>
+  <td class="blinkna">N/A</td>
+  <td class="blinkna">N/A</td>
 </tr>
   <tr>
   <td>Treasurer</td>
   <td>Kommuri Sai Suhitha Bala</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>G R Nitin</td>
+  <td class="blinkna">N/A</td>
+  <td class="blinkna">N/A</td>
 </tr>
   <tr>
   <td>Food and Snacks</td>
   <td>Karanam Hitesh Manjunath</td>
   <td>Mittul R</td>
-  <td>-</td>
-  <td>-</td>
+  <td class="blinkna">N/A</td>
+  <td class="blinkna">N/A</td>
 </tr>
   <tr>
   <td>Costume and Makeup</td>
   <td>Anuvarshini M K</td>
-  <td>Madhav Harikumar</td>
+  <td>Madhav Harikumar
+  <br>Suganth Sarvesh (Common)
+  </td>
   <td>Pandya Tanvi Kamalkumar</td>
   <td>Pothuri Lakshmi Harika</td>
 </tr>
@@ -358,24 +392,30 @@ footer {
   <td>On Duty Coordinator</td>
   <td>Venkata Revan Nagireddy</td>
   <td>Roshni V</td>
-  <td>-</td>
-  <td>-</td>
+  <td>Pandya Tanvi Kamalkumar</td>
+  <td>Pothuri Lakshmi Harika</td>
 </tr>
 <tr>
   <td>Timing Coordinator</td>
   <td>Vinayak R</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>Manbendra Satpathy</td>
+  <td class="blinkna">N/A</td>
+ <td>T K Vrinda</td>
 </tr>
 <tr>
   <td>Webpage Maintainer</td>
   <td>Manbendra Satpathy</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+ <td class="blinkna">N/A</td>
+ <td class="blinkna">N/A</td>
+  <td class="blinkna">N/A</td>
 </tr>
-  <tr>
+	  <tr>
+	<td>Campus Decoration</td>
+		  <td>Roshni V</td>
+		  <td class="blinkna">N/A</td>
+		  <td>Pandya Tanvi Kamalkumar</td>
+  		<td>Pothuri Lakshmi Harika</td>
+  </tr>
   <td>Overall</td>
   <td>Abinesh G
   <br>
@@ -383,16 +423,17 @@ footer {
   <td>Roshni V
   <br>
   Sri Sai Tanvi Sonti</td>
-  <td>-</td>
-  <td>-</td>
+  <td>Pandya Tanvi Kamalkumar</td>
+  <td>Pothuri Lakshmi Harika</td>
 </tr>
-	  <!--tr>
+<tr>
   <td>Special Souvenir</td>
-  <td>Anu Priya.P</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-</tr-->
+  <td>Suvetha DP</td>
+  <td>Vinayak R</td>
+  <td class="blinkna">N/A</td>
+  <td class="blinkna">N/A</td>
+</tr>
+
   </table>
  <br><br><br><br>  
 </div>
@@ -414,7 +455,7 @@ footer {
   <tr>
   <td>2.</td>
   <td>Sri Sai Tanvi Sonti</td>
-  <td>Deepthi J</td>
+  <td>Swetha V</td>
   </tr>
   <tr>
   <td>3.</td>
@@ -424,12 +465,12 @@ footer {
   <tr>
   <td>4.</td>
   <td>Aishwarya G</td>
-  <td>Swetha V</td>
+  <td>Meera E Thimothy</td>
   </tr>
   <tr>
   <td>5.</td>
   <td>Suvetha D P</td>
-  <td>-</td>
+  <td>Remya</td>
   </tr>
   <tr>
   <td>6.</td>
@@ -439,12 +480,7 @@ footer {
   <tr>
   <td>7.</td>
   <td>Pandya Tanvi Kamalkumar</td>
-  <td>-</td>
-  </tr>
-  <tr>
-  <td>8.</td>
-  <td>-</td>
-  <td>-</td>
+  <td>Zeenath AU</td>
   </tr>
   </table>  
   <br/>
@@ -477,72 +513,72 @@ footer {
   </tr>
   <tr>  
   <td>5.</td>
-  <td>Vinoth Kumar C</td>
+  <td>Vinoth Kumar D</td>
   <td>Abinesh G</td>
   </tr>
   <tr>  
   <td>6.</td>
-  <td>Vinoth Kumar D</td>
+  <td>Lakshmi Narayan P</td>
   <td>Pranav S R</td>
   </tr>
   <tr>  
   <td>7.</td>
-  <td>Ashwin Anand</td>
+  <td>Venkata Revan Nagireddy</td>
   <td>Ruthwik Krishna Bandreddy</td>
   </tr>
   <tr>  
   <td>8.</td>
-  <td>Seran Pandiyan I P</td>
+  <td>Kishore M</td>
   <td>Karanam Hitesh Manjunath</td>
   </tr>
   <tr> 
   <td>9.</td>
-  <td>Nishanth S</td>
+  <td>Ram Surya Suresh Kumar</td>
   <td>M C Vivek Veera</td>
   </tr>
   <tr> 
   <td>10.</td>
-  <td>Lakshmi Narayan P</td>
+  <td>G Manomithran</td>
   <td>Sanneganti Dharmik</td>
   </tr>
   <tr>
   <td>11.</td>
-  <td>Venkata Revan Nagireddy</td>
+  <td>Vishnu K</td>
   <td>Gokulachselvan C D</td>
   </tr>
   <tr>
   <td>12.</td>
-  <td>Kishore M</td>
+  <td>-</td>
   <td>Aravind S</td>
   </tr>
   <tr>
   <td>13.</td>
-  <td>Ram Surya Suresh Kumar</td>
+  <td>-</td>
   <td>R Siddharth Krishna</td>
   </tr>
   <tr>
   <td>14.</td>
-  <td>G Manomithran</td>
+  <td>-</td>
   <td>Karaka Sri Sai Nitin</td>
   </tr>
   <tr>
   <td>15.</td>
-  <td>Madari Kuruba Ganesh</td>
+  <td>-</td>
   <td>Iniyan R</td>
   </tr>
   <tr>
   <td>16.</td>
-  <td>Vishnu K</td>
+  <td>-</td>
   <td>Aishwarya G</td>
   </tr>
   <tr>
   <td>17.</td>
-  <td>G R Nitin</td>
+  <td>-</td>
   <td>Alagu Soundarya G</td>
   </tr>
   <tr>
   <td>18.</td>
-  <td>M K Ashwatha Prasad</td>
+  <td>-</td>
   <td>Anu Priya P</td>
   </tr>
   <tr>
@@ -632,7 +668,7 @@ footer {
 </tr>
 </table>
 <br/>
-<h3><p style="font-size:100%;font-family:Consolas";> Dashavatara </p></h3> 
+<h3><p style="font-size:100%;font-family:Consolas";> Dashavataram </p></h3> 
 <table>
   <th style="text-align:center">Avatar</th>
   <th style="text-align:center"> Name of the Student</th>
@@ -708,7 +744,7 @@ footer {
   </td>
   <td>Cultural Event</td>
   <td>Group Dance</td>
-  <td>Registered</td>
+  <td class="blinkr">Registered</td>
   </tr>
   <tr>
   <td>3.</td>
@@ -734,42 +770,67 @@ footer {
   <td>Aishwarya G S</td>
   <td>Elocution</td>
   <td>English Elocution</td>
-  <td class="blinkf">Finals</td>
+  <td class="blinkw">Won - 2nd place</td>
   </tr>
   <tr>
   <td>6.</td>
   <td>Alooysius Vitalian J</td>
   <td>Photogrpahy</td>
   <td>Photogrpahy</td>
-  <td>Registered</td>
+  <td class="blinkp">Participated</td>
   </tr>
   <tr>
   <td>7.</td>
   <td>Saranesh E S</td>
   <td>Photogrpahy</td>
   <td>Photogrpahy</td>
-  <td>Registered</td>
+  <td class="blinkp">Participated</td>
   </tr>
   <tr>
   <td>8.</td>
-  <td>Niran R</td>
+  <td>Mittul R</td>
   <td>Photogrpahy</td>
   <td>Photogrpahy</td>
-  <td>Registered</td>
+  <td class="blinkp">Participated</td>
   </tr>
   <tr>
   <td>9.</td>
-  <td>Alooysius Vitalian J</td>
-  <td>Short Film</td>
-  <td>Short Film</td>
-  <td>Registered</td>
+  <td>Alagu Soundarya G</td>
+  <td>Photogrpahy</td>
+  <td>Photogrpahy</td>
+  <td class="blinkp">Participated</td>
   </tr>
   <tr>
   <td>10.</td>
-  <td>Suvetha DP</td>
-  <td></td>
+  <td>Sparshika</td>
+  <td>Photogrpahy</td>
+  <td>Photogrpahy</td>
+  <td class="blinkp">Participated</td>
+  </tr>
+  <tr>
+  <td>11.</td>
+  <td>Alooysius Vitalian J and Team</td>
+  <td>Short Film</td>
+  <td>Short Film</td>
+  <td class="blinkr">Registered</td>
+  </tr>
+  <tr>
+  <td>12.</td>
+  <td>Kishanth K</td>
+  <td>Pencil Sketch</td>
+  <td>Pencil Sketch</td>
+  <td class="blinkp">Participated</td>
+  </tr>  
+  <tr>
+  <td>13.</td>
+  <td>Suvetha DP 
+  <br>Alagu Soundarya G
+  <br>Indrakanti Lakshmi Aishwarya
+  <br>Pothuri Lakshmi Harika
+  </td>
+  <td>Cultural Event</td>
   <td>Rangoli</td>
-  <td>Registered</td>
+  <td class="blinkp">Participated</td>
   </tr>
   </table>
   <br><br><br><br>
@@ -779,7 +840,7 @@ footer {
 <center><img src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/money-with-wings_1f4b8.gif" style="width:250px;height:250px"></center>
 
 
-<h2><p class="blink" style="font-size:60%;font-family:Consolas";> Planned Budget : ₹ 55,000</p> <p class="blink2" style="font-size:60%;font-family:Consolas";> Total Spending: ₹ 15000</p></h2>
+<h2><p class="blink" style="font-size:60%;font-family:Consolas";> Planned Budget : ₹ 55,000 + ₹ 3,000</p> <p class="blink2" style="font-size:60%;font-family:Consolas";> Total Spending : ₹ 41,000 + ₹ 3,000</p></h2>
   <b><h2><p style="font-size:60%;font-family:Consolas;">
   Please <a href="html/budget_spendings.html" target="_blank" style="text-decoration: none;">click here</a> for more detailed information.</b></h2></p>
   
@@ -874,7 +935,7 @@ footer {
   
         <div class="b-skills">
           <div class="container">
-            <h3>Planned Budget</h3>
+            <h3>Budget</h3>
   
             <div class="row">  
 		    
@@ -997,11 +1058,323 @@ footer {
 		</tr>
 		<tr>
 			<td>1.</td>
-			<td>28.09.2022</td>
-			<td>Tasha</td>
-			<td class="blink2">Practice</td>
-			<td>4</td>
-			<td>Sushmanth V M</td>
+			<td>-</td>
+			<td>Cellotape</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>2.</td>
+			<td>-</td>
+			<td>Gum Bottle</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>3.</td>
+			<td>-</td>
+			<td>Markers</td>
+			<td >-</td>
+			<td>8</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>4.</td>
+			<td>-</td>
+			<td>Packets of Rope</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>5.</td>
+			<td>-</td>
+			<td>Rope Hangings</td>
+			<td>-</td>
+			<td>24</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>6.</td>
+			<td>-</td>
+			<td>Satin Ribbon</td>
+			<td>-</td>
+			<td>5</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>7.</td>
+			<td>-</td>
+			<td>Chart</td>
+			<td>-</td>
+			<td>24</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>8.</td>
+			<td>-</td>
+			<td>A2 Sheets</td>
+			<td>-</td>
+			<td>15</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>9.</td>
+			<td>-</td>
+			<td>Two Way Tapes</td>
+			<td>-</td>
+			<td>3</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>10.</td>
+			<td>-</td>
+			<td>Blades</td>
+			<td>-</td>
+			<td>5</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>11.</td>
+			<td>-</td>
+			<td>HB Pencil</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>12.</td>
+			<td>-</td>
+			<td>Scissors</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>13.</td>
+			<td>-</td>
+			<td>Colour Pencils</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>14.</td>
+			<td>-</td>
+			<td>Colour Sheets</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>15.</td>
+			<td>-</td>
+			<td>Satin Ribbon - Magneta</td>
+			<td>-</td>
+			<td>8</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>16.</td>
+			<td>-</td>
+			<td>Satin Ribbon - Red</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>17.</td>
+			<td>-</td>
+			<td>Normal Tape - Width Big</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>18.</td>
+			<td>-</td>
+			<td>Brown Cellotape - Width Big</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>19.</td>
+			<td>-</td>
+			<td>Fevicol - 500 ML</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>20.</td>
+			<td>-</td>
+			<td>Golden Colour Cellotape - Width Big</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>21.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Red</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>22.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Orange</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>23.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Yellow</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>24.</td>
+			<td>-</td>
+			<td>Acrylic Paint - White</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>25.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Black</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>26.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Light BLue</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>27.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Dark Blue</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>28.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Light Green</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>29.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Dark Green</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>30.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Coco Brown</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>31.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Light Brown</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>32.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Violet</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>33.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Gold</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>34.</td>
+			<td>-</td>
+			<td>Acrylic Paint - Aqua Blue</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>35.</td>
+			<td>-</td>
+			<td>Big Sized Brushes</td>
+			<td>-</td>
+			<td>2</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>36.</td>
+			<td>-</td>
+			<td>Woolen Thread - Red</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>37.</td>
+			<td>-</td>
+			<td>Woolen Thread - Light Blue</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>38.</td>
+			<td>-</td>
+			<td>Woolen Thread - Violet</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>39.</td>
+			<td>-</td>
+			<td>Woolen Thread - Dark Green</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
+		</tr>
+    <tr>
+			<td>40.</td>
+			<td>-</td>
+			<td>Woolen Thread - Dark Blue</td>
+			<td>-</td>
+			<td>1</td>
+			<td>-</td>
 		</tr>
 	</table>
 	 <br><br><br><br>
