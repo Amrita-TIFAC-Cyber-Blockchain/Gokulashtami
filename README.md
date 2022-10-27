@@ -1,7 +1,7 @@
 # Gokulashtami
 
 <p align="center">
-  <img src="Assets/Gokula.jpg" width="440">
+  <img src="Assets/CYS_Gokulashtami_Logos.png" width="440">
 </p>
 
 ## 2012 
@@ -51,4 +51,6 @@
 
 ## 2022 - 19th October : Dasavatharam - Modern Era
 
-[Click Here](2022) to view in Detail.
+[Click Here](https://amrita-tifac-cyber-blockchain.github.io/Gokulashtami/Assets/2022/) to view in Detail.
+
+## 2023  - TBD
